@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    background-color: #444242;
+
+}
+
+
+
+.logo img {
+    margin-top: -50px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.wrap>input {
+    margin-bottom: 100px;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+header>.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    line-height: 120px;
+    text-decoration: underline;
+}
+
+.nav {
+    flex-basis: 53%;
+}
+
+ul.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.hero {
+    margin-top: -100px;
+    height: 1200px;
+    background-image: url('./images/Meat.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -200px;
+    color: aliceblue;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+    display: inline flex;
+    padding: 10px;
+    text-align: center;
+}
+
+.content img {
+    height: 5%;
+    width: 5%;
+    padding: 100px;
+    padding-top: 0;
+
+}
+
+.content img:hover {
+    height: 6%;
+    width: 6%;
+
+}
+
+.meal,
+.chef {
+    max-width: 1050px;
+    margin: auto;
+
+}
+
+.mealImg {
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid white;
+}
+
+.mealP,
+.chefP {
+    margin-top: 70px;
+    margin-bottom: 160px;
+    opacity: 0.0;
+    transition: all 500ms ease-in-out;
+
+}
+
+.mealN,
+.chefN {
+    display: flex;
+    list-style: none;
+    color: #358719;
+    text-shadow: 3px 3px 10px black;
+    font-size: 20px;
+    margin-right: 60px;
+    margin-left: -30px;
+    justify-content: space-between;
+}
+
+.mealImgs:hover+.mealP {
+    opacity: 1.0;
+}
+
+.chefImgs:hover+.chefP {
+    opacity: 1.0;
+}
+
+.chefImg:hover {
+    border-radius: 5px;
+    transition: all 500ms ease-in-out;
+}
+
+.chefImg {
+    transition: all 500ms ease-in-out;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+    border: 5px solid white;
+}
+
+.chef h1 {
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 10px #358719;
+    color: #322d2f;
+}
+
+.wrapC {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.wrapC h1 {
+    position: relative;
+    z-index: 5;
+    bottom: -40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 10px black;
+    letter-spacing: 4px;
+}
+
+.contactUs {
+    padding-top: 20px;
+    display: inline-block;
+    background-color: white;
+    height: 210px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    margin-bottom: 50px;
+}
+
+.contactUs input {
+    margin: 10px;
+    width: 70%;
+
+}
+
+.contactUs button {
+    height: 30px;
+    width: 70px;
+
+}
+
+form {
+    text-align: center;
+}
+
+
+
+form h1 {
+    font-size: 70px;
+    color: gray;
+    font-family: monospace;
+}
+
+form input.send,
+.wrapC button {
+    box-shadow: inset 0px 1px 10px black;
+    border: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 2px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+input.send:hover {
+    box-shadow: 0;
+    background-color: gray;
+    color: white;
+
+}
+
+form input.text {
+    height: 30px;
+    border-radius: 2px;
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #444242;
+    border: 2px solid black;
+
+}
+
+
+#hr1 {
+
+    width: 1200px;
+    margin: auto;
+    border: gray 2px solid;
+    border-radius: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 15vh;
+
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+    color: #989898;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3ec6ff;
+}
+
+.goup {
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    color: black;
+
+
+}
+
+
+
+
+/*---------------------------------*/

@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1238px) {
+
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    margin-right: 5%;
+}
+
+#hr1 {
+ display: none;
+}
+
+.meal {
+    max-width: 70%;
+}
+
+.mealImg {
+   height: 40%;
+   width: 40%;
+}
+
+.mealP {display: none;}
+
+.wrap> h1 {
+text-align: left;
+}
+
+.chefP {display: none;}
+
+.content {
+    max-width: 60%;
+   
+}
+
+.hero {
+    margin-bottom:-375px;
+}
+
+
+
+}
