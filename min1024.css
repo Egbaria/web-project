@@ -1,43 +1,54 @@
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 1238px)  {
 
-body {
-    overflow-x: hidden;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-.nav {
-    margin-right: 5%;
-}
+    .nav {
+        margin-right: 5%;
+    }
 
-#hr1 {
- display: none;
-}
+    #hr1 {
+        display: none;
+    }
 
-.meal {
-    max-width: 70%;
-}
+    .meal {
+        max-width: 70%;
+    }
 
-.mealImg {
-   height: 40%;
-   width: 40%;
-}
+    .mealImg {
+        height: 40%;
+        width: 40%;
+    }
 
-.mealP {display: none;}
+    .mealP {
+        display: none;
+    }
 
-.wrap> h1 {
-text-align: left;
-}
+    .wrap>h1 {
+        text-align: left;
+    }
 
-.chefP {display: none;}
+    .chefP {
+        display: none;
+    }
 
-.content {
-    max-width: 60%;
-   
-}
+    .content {
+        max-width: 60%;
 
-.hero {
-    margin-bottom:-375px;
-}
+    }
 
+    .hero {
+        margin-bottom: -375px;
+    }
 
+    .menu {
+        margin-right: 100px;
+
+    }
+
+    .arrow {
+        display: none;
+    }
 
 }
